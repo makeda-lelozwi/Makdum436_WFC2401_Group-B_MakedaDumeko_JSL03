@@ -11,9 +11,9 @@ You will present your reasoning for each example, record your presentation using
 
 # Presentation Talking Points
 
-Example #: 1
+Example #: [1]
 
-## Imperative Approach [2 Minutes]
+## Imperative Approach 
 1. **Step-by-Step Explanation:** 
 This function cooks a steak to the user's preferred level of doneness. It alerts the user if the steak is ready or if it still needs to be cooked. 
    
@@ -47,7 +47,7 @@ This function cooks a steak to the user's preferred level of doneness. It alerts
 
 Example #: 2
 
-## Declarative Approach [2 Minutes]
+## Declarative Approach 
 1. **High-Level Process Description:** 
    - This function shows that we want to cook a steak to a desired level of doneness and it must be seasoned with salt and pepper. 
    - The function does not include step-by-step instructions on how the steak should be cooked. It basically gives requirements of what should  be done in order to cook the steak.  
@@ -59,5 +59,5 @@ Example #: 2
 
     As the for loop is executed, it will iterate over each action object in the cookingProcess array. The loop will then console log the appropriate messages depending on which phase of the process we are on. 
 
-# Learning Outcome [1 Minute]
+# Learning Outcome 
 - I realised that we mostly learned how to code in line with the imperative programming paradigm. 
