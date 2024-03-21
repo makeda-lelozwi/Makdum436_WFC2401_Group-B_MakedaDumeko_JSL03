@@ -1,6 +1,6 @@
 # [JSL03] Project Submission: Which one is which? Declarative or Imperative?!
 
-Loom Recording Link: [Insert Link]
+Loom Recording Link: (https://www.loom.com/share/f15b4e0a6bc948378cd6df097e57ac5f?sid=107b3a51-ed9a-4376-a0b7-e422b1a1c208)
 
 # Project Overview
 
@@ -60,4 +60,4 @@ Example #: [2]
     As the for loop is executed, it will iterate over each action object in the cookingProcess array. The loop will then console log the appropriate messages depending on which phase of the process we are on. 
 
 # Learning Outcome 
-- I realised that we mostly learned how to code in line with the imperative programming paradigm. 
+- I realised that we mostly learned how to code with the imperative programming paradigm. 
