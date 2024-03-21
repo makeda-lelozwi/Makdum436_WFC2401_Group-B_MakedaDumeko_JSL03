@@ -8,80 +8,54 @@ In this project, you will be presented with two JavaScript code examples, each d
 
 You will present your reasoning for each example, record your presentation using Loom, and submit your findings along with the Loom recording to the Project Tab on the Learning Management System (LMS).
 
-# Instructions
-
-## Step 1: Clone the Repository
-
-Repo Link: https://github.com/CodeSpace-Academy/Module_3_StudentNo_Classcode_Group_Name-Surname_JSL03
-
-1. Access the provided repository containing the starter code and presentation template.
-2. Clone the repository.
-3. Open the cloned repository in your preferred code editor.
-
-## Step 2: Analyze the Examples
-
-1. In the cloned repository, you will find two JavaScript code examples labeled "Example 1" and "Example 2."
-2. Examine each code example and determine which one follows an imperative programming style and which one follows a declarative programming style.
-
-## Step 3: Record Your Presentation
-
-1. Use Loom (https://www.loom.com/).
-2. Create a single video presentation for both examples that include the following:
-
-   - Introduction of the example number.
-   - Explanation of whether the example is imperative or declarative.
-   - Detailed reasoning for your choice, discussing the code logic and style used in the example.
-   - Mention any specific code structures or patterns that align with the chosen programming paradigm.
-   
-3. Keep each video presentation concise, with a maximum length of 2 minutes for each example. Your total recording time should not exceed 5 minutes.
-
-## Step 4: Insert Loom Links
-
-1. After recording, upload your presentation videos to Loom.
-2. Obtain the Loom recording links for the video presentation.
-3. Edit the `README.md` file in the cloned repository and insert the Loom recording links.
-   
-## Step 5: Submit Your Project
-1. Commit your changes to the Git repository and push them to your GitHub account.
-2. Ensure that the repository is public so that it can be accessed.
-3. Submit the GitHub project link (URL) that includes your Loom recording link to the [JSL03] Project Tab on the LMS for evaluation.
-
-# Project Evaluation
-
-Your project will be evaluated based on your ability to:
-
-- Accurately identify and differentiate between imperative and declarative programming styles.
-- Provide clear and well-reasoned explanations for your choices.
-- Present your findings concisely within the specified time limit.
-- Follow the submission instructions accurately.
-
-Follow the steps outlined above to complete the project successfully.
 
 # Presentation Talking Points
 
-Example #: [Insert Example Number]
+Example #: 1
 
 ## Imperative Approach [2 Minutes]
-1. **Step-by-Step Explanation:** Start by explaining the code logic in the imperative approach.
-   - Mention each step of the process in the code.
+1. **Step-by-Step Explanation:** 
+This function cooks a steak to the user's preferred level of doneness. It alerts the user if the steak is ready or if it still needs to be cooked. 
+   
+   - Each step of the process:
+   The function cookSteak() has two parameters (steakWeight, and desiredDoneness). Both parameters should be numerical values. It outlines the following step-by-step instructions on how to get the steak to its desired level of doneness: 
+
+    Step 1: Preheat the grill
+    Step 2: Season the steak
+    Step 3: Cook the steak
+    Step 4: Serve the steak
+    
    - Describe how the code provides explicit instructions for each action.
-   - Discuss the use of variables to track the state and progress of the process.
+    1. The "grill is preheated": the grillTemp variable is increased from 0 to 204.
+    2. The steak is "seasoned": the variable seasoning contains the seasonings that should be applied to both sides of steak.  
+    3. The steak is "cooked": A "while" loop is used to tell the computer to keep checking the steak's temp and adjust the grill temp while its internal temp is below the desired level. During this time a message saying, "Steak needs more cooking" will be displayed.
+    4. Once the steak's internal temp has reached the desired level, the message "Steak is ready to serve" will be displayed and the steak will be served.  
 
-2. **Emphasis on How:** Highlight how the imperative approach focuses on detailing "how" the task is accomplished.
-   - Point out the use of loops, conditions, and explicit instructions.
-   - Discuss any mutable variables or states that change during execution.
+   - The use of variables to track the state and progress of the process.
+   There's 2 main variables tracking the state and progress of the process: grillTemperature and steakTemperature. 
+   While the code is being executed, the values of these 2 variables will be increased periodically. As the grillTemperature's variable increases, so should the steakTemperature variable increase. 
+   The process is completed when the grillTemperature is >= the pre-set level of doneness. 
 
 
-Example #: [Insert Example Number]
+2. **Emphasis on How:** How the imperative approach focuses on detailing "how" the task is accomplished.
+   - This is an example of imperative programming because it uses a while loop, a conditional statement, and clear step-by-step instructions on how the code should be executed.  
+   - The 2 main variables (steakTemperature and grillTemperature) are mutable and their states change during the execution of the code. 
+   
+
+
+Example #: 2
 
 ## Declarative Approach [2 Minutes]
-1. **High-Level Process Description:** Explain the code logic in the declarative approach.
-   - Describe the cooking process in a high-level, abstract manner.
-   - Emphasize that the code defines "what" should happen rather than "how" it should happen.
-
+1. **High-Level Process Description:** 
+   - This function shows that we want to cook a steak to a desired level of doneness and it must be seasoned with salt and pepper. 
+   - The function does not include step-by-step instructions on how the steak should be cooked. It basically gives requirements of what should  be done in order to cook the steak.  
+   
 2. **Use of Data Structures:** Discuss the use of data structures (e.g., arrays, objects) to represent the process steps.
-   - Explain how the process steps are organized in a structured format.
-   - Mention any abstraction layers or functions used to encapsulate actions.
+    The cooking steps are placed inside an array. Each step (item in the array) is an object with different instructions and variables attached to that part of the cooking process.
+
+    e.g. Seasoning the steak is an action and it is related to the grillTemperature. 
+
+    As the for loop is executed, it will iterate over each action object in the cookingProcess array. The loop will then console log the appropriate messages depending on which phase of the process we are on. 
 
 # Learning Outcome [1 Minute]
-- Reflect on what you've learned from analyzing these code examples in different paradigms.
+- I realised that we mostly learned how to code in line with the imperative programming paradigm. 
