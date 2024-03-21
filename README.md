@@ -45,7 +45,7 @@ This function cooks a steak to the user's preferred level of doneness. It alerts
    
 
 
-Example #: 2
+Example #: [2]
 
 ## Declarative Approach 
 1. **High-Level Process Description:** 
