@@ -4,9 +4,15 @@ function cookSteak(steakWeight, desiredDoneness) {
 
   // Define the cooking process
   const cookingProcess = [
-    { action: 'Preheat grill', temperature: grillTemperatureCelsius },
-    { action: 'Season steak', seasoning },
-    { action: 'Cook steak until desired doneness', desiredDoneness },
+    { action: 'Preheat grill', 
+      temperature: grillTemperatureCelsius },
+
+    { action: 'Season steak', 
+      seasoning },
+
+    { action: 'Cook steak until desired doneness', 
+      desiredDoneness },
+      
     { action: 'Serve steak' }
   ];
 
