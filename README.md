@@ -20,10 +20,10 @@ This function cooks a steak to the user's preferred level of doneness. It alerts
    - Each step of the process:
    The function cookSteak() has two parameters (steakWeight, and desiredDoneness). Both parameters should be numerical values. It outlines the following step-by-step instructions on how to get the steak to its desired level of doneness: 
 
-    Step 1: Preheat the grill
-    Step 2: Season the steak
-    Step 3: Cook the steak
-    Step 4: Serve the steak
+    Step 1: Preheat the grill <br>
+    Step 2: Season the steak <br>
+    Step 3: Cook the steak <br>
+    Step 4: Serve the steak <br>
     
    - Describe how the code provides explicit instructions for each action.
     1. The "grill is preheated": the grillTemp variable is increased from 0 to 204.
