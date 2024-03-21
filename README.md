@@ -24,18 +24,20 @@ This function cooks a steak to the user's preferred level of doneness. It alerts
     Step 2: Season the steak <br>
     Step 3: Cook the steak <br>
     Step 4: Serve the steak <br>
+    <br>
     
-   - Describe how the code provides explicit instructions for each action.
-    1. The "grill is preheated": the grillTemp variable is increased from 0 to 204.
-    2. The steak is "seasoned": the variable seasoning contains the seasonings that should be applied to both sides of steak.  
-    3. The steak is "cooked": A "while" loop is used to tell the computer to keep checking the steak's temp and adjust the grill temp while its internal temp is below the desired level. During this time a message saying, "Steak needs more cooking" will be displayed.
-    4. Once the steak's internal temp has reached the desired level, the message "Steak is ready to serve" will be displayed and the steak will be served.  
-
-   - The use of variables to track the state and progress of the process.
-   There's 2 main variables tracking the state and progress of the process: grillTemperature and steakTemperature. 
-   While the code is being executed, the values of these 2 variables will be increased periodically. As the grillTemperature's variable increases, so should the steakTemperature variable increase. 
-   The process is completed when the grillTemperature is >= the pre-set level of doneness. 
-
+   - How the code provides explicit instructions for each action:
+       1. The "grill is preheated": the grillTemp variable is increased from 0 to 204.
+       2. The steak is "seasoned": the variable seasoning contains the seasonings that should be applied to both sides of steak.  
+       3. The steak is "cooked": A "while" loop is used to tell the computer to keep checking the steak's temp and adjust the grill temp while its internal temp is below the desired level. During this time a message saying, "Steak needs more cooking" will be displayed.
+       4. Once the steak's internal temp has reached the desired level, the message "Steak is ready to serve" will be displayed and the steak will be served.  
+   <br>
+   
+   - Use of variables to track the state and progress of the process. <br>
+   There's 2 main variables tracking the state and progress of the process: grillTemperature and steakTemperature. <br>
+   While the code is being executed, the values of these 2 variables will be increased periodically. As the grillTemperature's variable increases, so should the steakTemperature variable increase. <br>
+   The process is completed when the grillTemperature is >= the pre-set level of doneness. <br>
+<br>
 
 2. **Emphasis on How:** How the imperative approach focuses on detailing "how" the task is accomplished.
    - This is an example of imperative programming because it uses a while loop, a conditional statement, and clear step-by-step instructions on how the code should be executed.  
